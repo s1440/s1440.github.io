@@ -1,5 +1,4 @@
-CIT 281 Lab and Projects
-  - includes some type of description of the purpose of the lab or project.
+CIT 281 Lab and Projects (and descriptions)
 
 Lab 1
   - Install Software and practice using new tools
