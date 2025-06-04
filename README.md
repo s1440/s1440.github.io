@@ -22,12 +22,24 @@
 
 
 **Projects**
-- Project 1
-  - Learn to use the command line interface
-  - Execute a JavaScript file using Node.js
-- Project 2
-- Project 3
-- Project 4
-- Project 5
-- Project 6
-- Project 7
+- Project 1  
+  - Learn to use the command line interface  
+  - Execute a JavaScript file using Node.js  
+- Project 2  
+  - Practice JS functions and refactoring  
+  - Work with Git and use a `.gitignore` file  
+- Project 3  
+  - Create a basic Express web server  
+  - Use multiple routes and query parameters  
+- Project 4  
+  - Build a REST API with GET routes  
+  - Handle question/answer data with error handling  
+- Project 5  
+  - Develop a game using JavaScript classes  
+  - Connect class logic to server and browser client  
+- Project 6  
+  - Create a full-stack app with Express  
+  - Use GET, POST, PUT, DELETE with in-memory data  
+- Project 7  
+  - Design a GitHub Pages portfolio  
+  - Showcase labs and projects with links and screenshots  
