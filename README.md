@@ -31,9 +31,5 @@ Project 7
   -
 Lab 8
   - 
-Project 8
-  -
 Lab 9
   - 
-Project 9
-  -
