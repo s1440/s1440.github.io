@@ -22,7 +22,7 @@
 
 
 **Projects**
-- Project 1  
+- [Project 1](https://github.com/s1440/cit281-p1)
   - Learn to use the command line interface  
   - Execute a JavaScript file using Node.js  
 - Project 2  
