@@ -1,64 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CIT 281 Portfolio</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      margin: 2rem;
-      background-color: #f9f9f9;
-      color: #333;
+      background-color: #e9f5ec;
+      color: #003300;
+      margin: 0;
+      padding: 0;
     }
-    h1, h2 {
-      color: #005f73;
+    header {
+      background-color: #006400;
+      color: white;
+      padding: 1rem;
+      text-align: center;
     }
-    a {
-      color: #007acc;
+    nav {
+      background-color: #228B22;
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
       text-decoration: none;
+      font-weight: bold;
     }
-    a:hover {
+    nav a:hover {
       text-decoration: underline;
     }
-    .lab, .project {
-      margin-bottom: 1.5rem;
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      border-bottom: 2px solid #006400;
+      padding-bottom: 0.5rem;
     }
     ul {
-      list-style: none;
-      padding-left: 0;
+      list-style-type: none;
+      padding: 0;
     }
     li {
       margin: 0.5rem 0;
     }
+    li a {
+      color: #006400;
+      text-decoration: none;
+    }
+    li a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
-  <h1>CIT 281 Portfolio</h1>
-  <p>Welcome to my portfolio site! Here you'll find my labs and projects from the CIT 281 course at the University of Oregon.</p>
-
-  <h2>Labs</h2>
-  <ul>
-    <li class="lab"><a href="https://github.com/s1440/cit281-lab1" target="_blank">Lab 1</a> – Installed software and practiced using new tools</li>
-    <li class="lab"><a href="https://github.com/s1440/cit281-lab2" target="_blank">Lab 2</a> – Learned about git and repositories</li>
-    <li class="lab"><a href="https://github.com/s1440/cit281-lab3" target="_blank">Lab 3</a> – Refactored code using arrow functions and modules</li>
-    <li class="lab"><a href="https://github.com/s1440/cit281-lab4" target="_blank">Lab 4</a> – Built an Express server with routes and query parameters</li>
-    <li class="lab"><a href="https://github.com/s1440/cit281-lab5" target="_blank">Lab 5</a> – Created an API server and tested routes with Postman</li>
-    <li class="lab"><a href="https://github.com/s1440/cit281-lab6" target="_blank">Lab 6</a> – Practiced REST API handling and refactored client-side code</li>
-    <li class="lab"><a href="https://github.com/s1440/cit281-lab7" target="_blank">Lab 7</a> – Created a full stack server-client app with Express</li>
-    <li class="lab"><a href="https://github.com/s1440/cit281-lab8" target="_blank">Lab 8</a> – Built a fetch-based frontend and practiced Promises</li>
-    <li class="lab"><a href="https://github.com/s1440/cit281-lab9" target="_blank">Lab 9</a> – Completed GitHub workflow tutorial to practice release-based collaboration</li>
-  </ul>
-
-  <h2>Projects</h2>
-  <ul>
-    <li class="project"><a href="https://github.com/s1440/cit281-p1" target="_blank">Project 1</a> – Learn to use the command line interface and execute JavaScript with Node.js</li>
-    <li class="project"><a href="https://github.com/s1440/cit281-p2" target="_blank">Project 2</a> – Refactored random string generator and practiced using git CLI</li>
-    <li class="project"><a href="https://github.com/s1440/cit281-p3" target="_blank">Project 3</a> – Built a RESTful server with GET and POST routes</li>
-    <li class="project"><a href="https://github.com/s1440/cit281-p4" target="_blank">Project 4</a> – Created an Express server with query parameter handling and error responses</li>
-    <li class="project"><a href="https://github.com/s1440/cit281-p5" target="_blank">Project 5</a> – Created a browser-based game with a server, client UI, and class-based game logic</li>
-    <li class="project"><a href="https://github.com/s1440/cit281-p6" target="_blank">Project 6</a> – Built a full CRUD API with JSON-based requests and error handling</li>
-    <li class="project"><a href="https://github.com/s1440/cit281-p7" target="_blank">Project 7</a> – Published portfolio on GitHub Pages, linking to each lab and project</li>
-  </ul>
+  <header>
+    <h1>CIT 281 Portfolio</h1>
+    <p>University of Oregon</p>
+  </header>
+  <nav>
+    <a href="#labs">Labs</a>
+    <a href="#projects">Projects</a>
+  </nav>
+  <main>
+    <section id="labs">
+      <h2>Labs</h2>
+      <ul>
+        <li><a href="https://s1440.github.io/cit281-lab1/" target="_blank">Lab 1</a></li>
+        <li><a href="https://s1440.github.io/cit281-lab2/" target="_blank">Lab 2</a></li>
+        <li><a href="https://s1440.github.io/cit281-lab3/" target="_blank">Lab 3</a></li>
+        <li><a href="https://s1440.github.io/cit281-lab4/" target="_blank">Lab 4</a></li>
+        <li><a href="https://s1440.github.io/cit281-lab5/" target="_blank">Lab 5</a></li>
+        <li><a href="https://s1440.github.io/cit281-lab6/" target="_blank">Lab 6</a></li>
+        <li><a href="https://s1440.github.io/cit281-lab7/" target="_blank">Lab 7</a></li>
+        <li><a href="https://s1440.github.io/cit281-lab8/" target="_blank">Lab 8</a></li>
+        <li><a href="https://s1440.github.io/cit281-lab9/" target="_blank">Lab 9</a></li>
+      </ul>
+    </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li><a href="https://s1440.github.io/cit281-p1/" target="_blank">Project 1</a></li>
+        <li><a href="https://s1440.github.io/cit281-p2/" target="_blank">Project 2</a></li>
+        <li><a href="https://s1440.github.io/cit281-p3/" target="_blank">Project 3</a></li>
+        <li><a href="https://s1440.github.io/cit281-p4/" target="_blank">Project 4</a></li>
+        <li><a href="https://s1440.github.io/cit281-p5/" target="_blank">Project 5</a></li>
+        <li><a href="https://s1440.github.io/cit281-p6/" target="_blank">Project 6</a></li>
+        <li><a href="https://s1440.github.io/cit281-p7/" target="_blank">Project 7</a></li>
+      </ul>
+    </section>
+  </main>
 </body>
 </html>
