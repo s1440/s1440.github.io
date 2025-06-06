@@ -1,7 +1,7 @@
 **CIT 281 Lab and Projects (and descriptions)**
 
 **Labs**
-- [Lab 1]([url](https://github.com/s1440/cit281-lab1))  
+- [Lab 1]([https://github.com/s1440/cit281-lab1])  
   - Installed software and practiced using new tools  
 - Lab 2  
   - Learned about git and repositories  
