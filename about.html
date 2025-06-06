@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About - CIT 281 Portfolio</title>
+  <title>CIT 281 Portfolio</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -15,41 +15,52 @@
     header {
       background-color: #007030;
       color: white;
-      padding: 2rem;
+      padding: 1.5rem;
       text-align: center;
+    }
+    nav {
+      background-color: #004d24;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #a4f0c1;
     }
     main {
       max-width: 800px;
       margin: 2rem auto;
-      padding: 2rem;
-      background: white;
-      border-radius: 8px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    }
-    h2 {
-      color: #007030;
+      padding: 1rem;
+      text-align: center;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>About This Portfolio</h1>
-    <p>Created for CIT 281 at the University of Oregon</p>
+    <h1>CIT 281 Portfolio</h1>
+    <p>University of Oregon - Computer & Information Technology Minor</p>
   </header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="labs.html">Labs</a>
+    <a href="projects.html">Projects</a>
+    <a href="about.html">About</a>
+  </nav>
   <main>
-    <h2>Purpose</h2>
-    <p>This website was created to showcase the labs and projects completed as part of the CIT 281 course. Each page includes summaries, technologies used, and personal learning outcomes for every assignment.</p>
-
-    <h2>Technologies Used</h2>
-    <ul>
-      <li>HTML & CSS for page structure and styling</li>
-      <li>JavaScript for interactive client-side functionality (in projects)</li>
-      <li>Git & GitHub for version control and website hosting via GitHub Pages</li>
-      <li>Node.js and Express.js for server-side development (in projects)</li>
-    </ul>
-
-    <h2>About Me</h2>
-    <p>I’m a student at the University of Oregon pursuing a CIT minor. This portfolio demonstrates my growing skills in full-stack development and web technologies.</p>
+    <h2>About This Portfolio</h2>
+    <p>
+      This site showcases my work from CIT 281 at the University of Oregon. It includes a collection of lab exercises and major projects completed throughout the course, covering topics like JavaScript, Node.js, Express, APIs, and GitHub.
+    </p>
+    <p>
+      Each lab and project demonstrates practical coding skills and deeper understanding of client-server architecture, programming logic, and version control. The portfolio also serves as a personal milestone in my journey through the Computer & Information Technology minor.
+    </p>
   </main>
 </body>
 </html>
