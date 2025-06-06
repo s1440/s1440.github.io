@@ -3,21 +3,21 @@
 **Labs**
 - [Lab 1](https://github.com/s1440/cit281-lab1)
   - Installed software and practiced using new tools  
-- Lab 2  
+- [Lab 2](https://github.com/s1440/cit281-lab2)
   - Learned about git and repositories  
-- Lab 3  
+- [Lab 3](https://github.com/s1440/cit281-lab3)
   - Refactored code using arrow functions and modules  
-- Lab 4  
+- [Lab 4](https://github.com/s1440/cit281-lab4)
   - Built an Express server with routes and query parameters  
-- Lab 5  
+- [Lab 5](https://github.com/s1440/cit281-lab5)
   - Created an API server and tested routes with Postman  
-- Lab 6  
+- [Lab 6](https://github.com/s1440/cit281-lab6)
   - Built Book and Library classes with add and delete methods  
-- Lab 7  
+- [Lab 7](https://github.com/s1440/cit281-lab7)
   - Created a GitHub Pages site and explored themes  
-- Lab 8  
+- [Lab 8](https://github.com/s1440/cit281-lab8)
   - Fetched and displayed photo data using Express and fetch()  
-- Lab 9  
+- [Lab 9](https://github.com/s1440/cit281-lab9)
   - Completed a GitHub workflow course wi
 
 
