@@ -18,7 +18,7 @@
 - [Lab 8](https://github.com/s1440/cit281-lab8)
   - Fetched and displayed photo data using Express and fetch()  
 - [Lab 9](https://github.com/s1440/cit281-lab9)
-  - Completed a GitHub workflow course wi
+  - Completed a GitHub workflow course workflow
 
 
 **Projects**
