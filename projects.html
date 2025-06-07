@@ -35,33 +35,34 @@
       color: #a4f0c1;
     }
     main {
-      padding: 2rem;
       max-width: 800px;
-      margin: 0 auto;
+      margin: 2rem auto;
+      padding: 1rem;
     }
     h2 {
       color: #004d24;
       border-bottom: 2px solid #007030;
       padding-bottom: 0.3rem;
-      margin-top: 2rem;
     }
     ul {
-      list-style-type: disc;
-      margin-left: 1.5rem;
+      list-style-type: none;
+      padding-left: 0;
     }
-    a {
-      color: #007030;
+    li {
+      margin: 1.5rem 0;
+      background-color: #e4f5ea;
+      padding: 1rem;
+      border-radius: 8px;
+    }
+    .project-title {
       font-weight: bold;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
+      font-size: 1.2rem;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>CIT 281 Portfolio</h1>
+    <h1>CIT 281 Projects</h1>
     <p>University of Oregon - Computer & Information Technology Minor</p>
   </header>
   <nav>
@@ -71,46 +72,36 @@
     <a href="about.html">About</a>
   </nav>
   <main>
-    <h2><a href="https://s1440.github.io/cit281-p1/">Project 1</a></h2>
+    <h2>Project List</h2>
     <ul>
-      <li>Learn to use the command line interface</li>
-      <li>Execute a JavaScript file using Node.js</li>
-    </ul>
-
-    <h2><a href="https://s1440.github.io/cit281-p2/">Project 2</a></h2>
-    <ul>
-      <li>Refactor JavaScript using modern syntax and modules</li>
-      <li>Use Git for version control</li>
-    </ul>
-
-    <h2><a href="https://s1440.github.io/cit281-p3/">Project 3</a></h2>
-    <ul>
-      <li>Build a Node.js API with routes</li>
-      <li>Test the routes using Postman</li>
-    </ul>
-
-    <h2><a href="https://s1440.github.io/cit281-p4/">Project 4</a></h2>
-    <ul>
-      <li>Create a web server using Express</li>
-      <li>Use query parameters and serve static content</li>
-    </ul>
-
-    <h2><a href="https://s1440.github.io/cit281-p5/">Project 5</a></h2>
-    <ul>
-      <li>Create a word search game using a JavaScript class</li>
-      <li>Build a client-server web app using modules</li>
-    </ul>
-
-    <h2><a href="https://s1440.github.io/cit281-p6/">Project 6</a></h2>
-    <ul>
-      <li>Create a full CRUD API using Express</li>
-      <li>Manage data with a memory-based server object</li>
-    </ul>
-
-    <h2><a href="https://s1440.github.io/cit281-p7/">Project 7</a></h2>
-    <ul>
-      <li>Build a GitHub Pages website to showcase labs and projects</li>
-      <li>Link all course work with descriptions and styling</li>
+      <li>
+        <div class="project-title">Project 1</div>
+        <p>Learned to use the command line and run JavaScript files using Node.js.</p>
+      </li>
+      <li>
+        <div class="project-title">Project 2</div>
+        <p>Created and used functions, arrays, and loops in Node.js.</p>
+      </li>
+      <li>
+        <div class="project-title">Project 3</div>
+        <p>Used modules, classes, and web servers to build structured code.</p>
+      </li>
+      <li>
+        <div class="project-title">Project 4</div>
+        <p>Created a countdown timer using DOM manipulation and setInterval.</p>
+      </li>
+      <li>
+        <div class="project-title">Project 5</div>
+        <p>Built a word search game using modules and client-server interaction.</p>
+      </li>
+      <li>
+        <div class="project-title">Project 6</div>
+        <p>Made a full-stack app using Express with CRUD and JSON responses.</p>
+      </li>
+      <li>
+        <div class="project-title">Project 7</div>
+        <p>Published a full portfolio website using GitHub Pages.</p>
+      </li>
     </ul>
   </main>
 </body>
