@@ -18,71 +18,75 @@
       padding: 1.5rem;
       text-align: center;
     }
-    main {
-      padding: 2rem;
+    nav {
+      background-color: #004d24;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem 0;
     }
-    .lab-entry {
-      background: white;
-      margin: 1rem 0;
-      padding: 1rem;
-      border-left: 6px solid #007030;
-      border-radius: 6px;
-    }
-    .lab-entry h2 {
-      margin: 0 0 0.5rem;
-    }
-    a {
-      color: #007030;
+    nav a {
+      color: white;
       text-decoration: none;
       font-weight: bold;
+      transition: color 0.3s;
     }
-    a:hover {
+    nav a:hover {
+      color: #a4f0c1;
+    }
+    main {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    h2 {
+      color: #004d24;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      background-color: white;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-left: 5px solid #007030;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    li a {
+      color: #007030;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    li a:hover {
       text-decoration: underline;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Labs</h1>
-    <p>CIT 281 Coursework</p>
+    <h1>CIT 281 Portfolio</h1>
+    <p>Labs Overview</p>
   </header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="labs.html">Labs</a>
+    <a href="projects.html">Projects</a>
+    <a href="about.html">About</a>
+  </nav>
   <main>
-    <div class="lab-entry">
-      <h2><a href="https://s1440.github.io/cit281-lab1">Lab 1</a></h2>
-      <p>Installed software and practiced using new tools.</p>
-    </div>
-    <div class="lab-entry">
-      <h2><a href="https://s1440.github.io/cit281-lab2">Lab 2</a></h2>
-      <p>Learned about git and repositories.</p>
-    </div>
-    <div class="lab-entry">
-      <h2><a href="https://s1440.github.io/cit281-lab3">Lab 3</a></h2>
-      <p>Refactored code using arrow functions and modules.</p>
-    </div>
-    <div class="lab-entry">
-      <h2><a href="https://s1440.github.io/cit281-lab4">Lab 4</a></h2>
-      <p>Built an Express server with routes and query parameters.</p>
-    </div>
-    <div class="lab-entry">
-      <h2><a href="https://s1440.github.io/cit281-lab5">Lab 5</a></h2>
-      <p>Created an API server and tested routes with Postman.</p>
-    </div>
-    <div class="lab-entry">
-      <h2><a href="https://s1440.github.io/cit281-lab6">Lab 6</a></h2>
-      <p>Added modular route handling and middleware to a server.</p>
-    </div>
-    <div class="lab-entry">
-      <h2><a href="https://s1440.github.io/cit281-lab7">Lab 7</a></h2>
-      <p>Used all HTTP verbs and an in-memory data structure.</p>
-    </div>
-    <div class="lab-entry">
-      <h2><a href="https://s1440.github.io/cit281-lab8">Lab 8</a></h2>
-      <p>Fetched API data with Promises and displayed it on the page.</p>
-    </div>
-    <div class="lab-entry">
-      <h2><a href="https://s1440.github.io/cit281-lab9">Lab 9</a></h2>
-      <p>Created a GitHub Pages portfolio and organized project links.</p>
-    </div>
+    <h2>Labs</h2>
+    <ul>
+      <li><a href="https://s1440.github.io/cit281-lab1/">Lab 1</a> - Installed software and practiced using new tools</li>
+      <li><a href="https://s1440.github.io/cit281-lab2/">Lab 2</a> - Learned about git and repositories</li>
+      <li><a href="https://s1440.github.io/cit281-lab3/">Lab 3</a> - Refactored code using arrow functions and modules</li>
+      <li><a href="https://s1440.github.io/cit281-lab4/">Lab 4</a> - Built an Express server with routes and query parameters</li>
+      <li><a href="https://s1440.github.io/cit281-lab5/">Lab 5</a> - Created an API server and tested routes with Postman</li>
+      <li><a href="https://s1440.github.io/cit281-lab6/">Lab 6</a> - Created and documented a class-based module</li>
+      <li><a href="https://s1440.github.io/cit281-lab7/">Lab 7</a> - Built a full client-server CRUD application</li>
+      <li><a href="https://s1440.github.io/cit281-lab8/">Lab 8</a> - Fetched external data using Promises and served static content</li>
+      <li><a href="https://s1440.github.io/cit281-lab9/">Lab 9</a> - Deployed GitHub Pages and created this portfolio</li>
+    </ul>
   </main>
 </body>
 </html>
