@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CIT 281 Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home - CIT 281 Portfolio</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -18,45 +18,64 @@
       padding: 2rem;
       text-align: center;
     }
-    main {
+    nav {
+      background-color: #004d24;
       display: flex;
-      flex-direction: column;
-      align-items: center;
       justify-content: center;
-      height: calc(100vh - 140px);
+      gap: 2rem;
+      padding: 1rem 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #a4f0c1;
+    }
+    main {
+      padding: 4rem 2rem;
+      text-align: center;
     }
     .button-container {
       display: flex;
-      flex-direction: column;
-      gap: 1.5rem;
+      justify-content: center;
+      gap: 2rem;
+      flex-wrap: wrap;
     }
     .nav-button {
       background-color: #007030;
       color: white;
       padding: 1rem 2rem;
-      font-size: 1.2rem;
+      font-size: 1.25rem;
+      text-decoration: none;
       border: none;
       border-radius: 8px;
       cursor: pointer;
       transition: background-color 0.3s;
-      text-decoration: none;
-      text-align: center;
     }
     .nav-button:hover {
-      background-color: #005622;
+      background-color: #005f27;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>CIT 281 Portfolio</h1>
+    <h1>My CIT 281 Portfolio</h1>
     <p>University of Oregon - Computer & Information Technology Minor</p>
   </header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="labs.html">Labs</a>
+    <a href="projects.html">Projects</a>
+    <a href="about.html">About</a>
+  </nav>
   <main>
     <div class="button-container">
-      <a class="nav-button" href="labs.html">View Labs</a>
-      <a class="nav-button" href="projects.html">View Projects</a>
-      <a class="nav-button" href="about.html">About This Portfolio</a>
+      <a href="labs.html" class="nav-button">View Labs</a>
+      <a href="projects.html" class="nav-button">View Projects</a>
+      <a href="about.html" class="nav-button">About Me</a>
     </div>
   </main>
 </body>
