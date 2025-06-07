@@ -15,8 +15,24 @@
     header {
       background-color: #007030;
       color: white;
-      padding: 2rem;
+      padding: 1.5rem;
       text-align: center;
+    }
+    nav {
+      background-color: #004d24;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #a4f0c1;
     }
     main {
       padding: 2rem;
@@ -24,41 +40,47 @@
       margin: 0 auto;
     }
     h2 {
-      color: #007030;
+      border-bottom: 2px solid #007030;
+      padding-bottom: 0.5rem;
     }
     ul {
       list-style-type: none;
       padding: 0;
     }
     li {
-      margin: 1.2rem 0;
-      font-size: 1.1rem;
+      margin: 1rem 0;
     }
-    a {
+    a.project-link {
       color: #007030;
       text-decoration: none;
       font-weight: bold;
     }
-    a:hover {
+    a.project-link:hover {
       text-decoration: underline;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Projects</h1>
-    <p>CIT 281 - University of Oregon</p>
+    <h1>CIT 281 Portfolio</h1>
+    <p>University of Oregon - Computer & Information Technology Minor</p>
   </header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="labs.html">Labs</a>
+    <a href="projects.html">Projects</a>
+    <a href="about.html">About</a>
+  </nav>
   <main>
-    <h2>My Projects</h2>
+    <h2>Projects</h2>
     <ul>
-      <li><a href="https://s1440.github.io/cit281-p1">Project 1</a> - Learn to use the command line interface and run JavaScript in Node.js</li>
-      <li><a href="https://s1440.github.io/cit281-p2">Project 2</a> - Refactor a Node.js program and use Git to track changes</li>
-      <li><a href="https://s1440.github.io/cit281-p3">Project 3</a> - Create an API server using Express and route handling</li>
-      <li><a href="https://s1440.github.io/cit281-p4">Project 4</a> - Use Express with query strings and generate random content</li>
-      <li><a href="https://s1440.github.io/cit281-p5">Project 5</a> - Build a JavaScript word game using classes and Express</li>
-      <li><a href="https://s1440.github.io/cit281-p6">Project 6</a> - Develop a full CRUD web server using Express and in-memory storage</li>
-      <li><a href="https://s1440.github.io/cit281-p7">Project 7</a> - Create and publish your portfolio using GitHub Pages</li>
+      <li><a class="project-link" href="https://s1440.github.io/cit281-p1/">Project 1</a> - Learn to use the command line interface and run Node.js code</li>
+      <li><a class="project-link" href="https://s1440.github.io/cit281-p2/">Project 2</a> - Refactor JavaScript code and use Git with VS Code</li>
+      <li><a class="project-link" href="https://s1440.github.io/cit281-p3/">Project 3</a> - Build and test API routes using Postman</li>
+      <li><a class="project-link" href="https://s1440.github.io/cit281-p4/">Project 4</a> - Create an Express web server with query parameters</li>
+      <li><a class="project-link" href="https://s1440.github.io/cit281-p5/">Project 5</a> - Make a word search game using classes and modules</li>
+      <li><a class="project-link" href="https://s1440.github.io/cit281-p6/">Project 6</a> - Create a full CRUD API with a web server and client</li>
+      <li><a class="project-link" href="https://s1440.github.io/cit281-p7/">Project 7</a> - Build a live GitHub Pages portfolio</li>
     </ul>
   </main>
 </body>
