@@ -35,35 +35,38 @@
       color: #a4f0c1;
     }
     main {
+      padding: 2rem;
       max-width: 800px;
-      margin: 2rem auto;
-      padding: 1rem;
+      margin: auto;
     }
     h2 {
       color: #004d24;
-      border-bottom: 2px solid #007030;
-      padding-bottom: 0.3rem;
     }
     ul {
       list-style-type: none;
-      padding-left: 0;
+      padding: 0;
     }
     li {
-      margin: 1.5rem 0;
-      background-color: #e4f5ea;
+      background-color: white;
       padding: 1rem;
-      border-radius: 8px;
+      margin-bottom: 1rem;
+      border-left: 5px solid #007030;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
-    .project-title {
+    li a {
+      color: #007030;
       font-weight: bold;
-      font-size: 1.2rem;
+      text-decoration: none;
+    }
+    li a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>CIT 281 Projects</h1>
-    <p>University of Oregon - Computer & Information Technology Minor</p>
+    <h1>CIT 281 Portfolio</h1>
+    <p>Projects Overview</p>
   </header>
   <nav>
     <a href="index.html">Home</a>
@@ -72,36 +75,16 @@
     <a href="about.html">About</a>
   </nav>
   <main>
-    <h2>Project List</h2>
+    <h2>Projects</h2>
     <ul>
-      <li>
-        <div class="project-title">Project 1</div>
-        <p>Learned to use the command line and run JavaScript files using Node.js.</p>
-      </li>
-      <li>
-        <div class="project-title">Project 2</div>
-        <p>Created and used functions, arrays, and loops in Node.js.</p>
-      </li>
-      <li>
-        <div class="project-title">Project 3</div>
-        <p>Used modules, classes, and web servers to build structured code.</p>
-      </li>
-      <li>
-        <div class="project-title">Project 4</div>
-        <p>Created a countdown timer using DOM manipulation and setInterval.</p>
-      </li>
-      <li>
-        <div class="project-title">Project 5</div>
-        <p>Built a word search game using modules and client-server interaction.</p>
-      </li>
-      <li>
-        <div class="project-title">Project 6</div>
-        <p>Made a full-stack app using Express with CRUD and JSON responses.</p>
-      </li>
-      <li>
-        <div class="project-title">Project 7</div>
-        <p>Published a full portfolio website using GitHub Pages.</p>
-      </li>
+      <li><a href="https://s1440.github.io/cit281-lab1/">Project 1</a> - Learned to use the command line and run JavaScript files using Node.js</li>
+      <li><a href="https://s1440.github.io/cit281-lab2/">Project 2</a> - Created and used functions, arrays, and loops in Node.js</li>
+      <li><a href="https://s1440.github.io/cit281-lab3/">Project 3</a> - Used modules, classes, and web servers to build structured code</li>
+      <li><a href="https://s1440.github.io/cit281-lab4/">Project 4</a> - Created a countdown timer using DOM manipulation and setInterval</li>
+      <li><a href="https://s1440.github.io/cit281-lab5/">Project 5</a> - Built a word search game using modules and client-server interaction</li>
+      <li><a href="https://s1440.github.io/cit281-lab6/">Project 6</a> - Made a full-stack app using Express with CRUD and JSON responses</li>
+      <li><a href="https://s1440.github.io/cit281-lab7/">Project 7</a> - Published a full portfolio website using GitHub Pages</li>
+
     </ul>
   </main>
 </body>
