@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Lab 1 - CIT 281 Portfolio</title>
   <style>
     body {
@@ -29,70 +29,67 @@
       color: white;
       text-decoration: none;
       font-weight: bold;
+      transition: color 0.3s;
     }
     nav a:hover {
       color: #a4f0c1;
     }
     main {
+      padding: 2rem;
       max-width: 800px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-    }
-    section {
-      margin-bottom: 2rem;
+      margin: 0 auto;
     }
     h2 {
-      color: #007030;
+      color: #004d24;
     }
-    .nav-buttons {
-      display: flex;
-      justify-content: space-between;
-      margin-top: 2rem;
+    .section {
+      margin-bottom: 2rem;
     }
-    .nav-buttons a {
+    .back-button {
+      display: inline-block;
       background-color: #007030;
       color: white;
       text-decoration: none;
-      padding: 0.5rem 1rem;
+      padding: 0.75rem 1.5rem;
       border-radius: 6px;
       font-weight: bold;
+      transition: background-color 0.3s;
     }
-    .nav-buttons a:hover {
+    .back-button:hover {
       background-color: #005d29;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Lab 1: Setup & Tools</h1>
+    <h1>CIT 281 Portfolio</h1>
+    <p>University of Oregon - Computer & Information Technology Minor</p>
   </header>
-
   <nav>
     <a href="index.html">Home</a>
     <a href="labs.html">Labs</a>
     <a href="projects.html">Projects</a>
     <a href="about.html">About</a>
   </nav>
-
   <main>
-    <section>
-      <h2>Purpose</h2>
-      <p>Install and test the required software tools and practice using the command line and VS Code terminal.</p>
-    </section>
+    <h2>Lab 1</h2>
 
-    <section>
-      <h2>Technologies Used</h2>
-      <p>VS Code, Command Line, Node.js, Git</p>
-    </section>
-
-    <section>
-      <h2>What I Learned</h2>
-      <p>I learned how to install and test basic development tools and navigate using the terminal.</p>
-    </section>
-
-    <div class="nav-buttons">
-      <a href="lab2.html">Next Lab →</a>
+    <div class="section">
+      <strong>Purpose:</strong>
+      <p>Installed required software and practiced using the command line and basic Node.js syntax.</p>
     </div>
+
+    <div class="section">
+      <strong>Technologies Used:</strong>
+      <p>Node.js, Visual Studio Code, Terminal/Command Line</p>
+    </div>
+
+    <div class="section">
+      <strong>What I Learned:</strong>
+      <p>How to execute JavaScript using Node.js and navigate the file system using the command line.</p>
+    </div>
+
+    <a class="back-button" href="labs.html">← Back to Labs</a>
   </main>
 </body>
 </html>
