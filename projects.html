@@ -39,34 +39,28 @@
       max-width: 800px;
       margin: auto;
     }
-    h2 {
-      color: #004d24;
-    }
     ul {
       list-style-type: none;
       padding: 0;
     }
     li {
-      background-color: white;
-      padding: 1rem;
-      margin-bottom: 1rem;
-      border-left: 5px solid #007030;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin-bottom: 1.5rem;
     }
-    li a {
-      color: #007030;
+    a.project-link {
       font-weight: bold;
+      color: #007030;
       text-decoration: none;
+      font-size: 1.2rem;
     }
-    li a:hover {
+    a.project-link:hover {
       text-decoration: underline;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>CIT 281 Portfolio</h1>
-    <p>Projects Overview</p>
+    <h1>CIT 281 Projects</h1>
+    <p>Explore each project below</p>
   </header>
   <nav>
     <a href="index.html">Home</a>
@@ -75,16 +69,14 @@
     <a href="about.html">About</a>
   </nav>
   <main>
-    <h2>Projects</h2>
     <ul>
-      <li><a href="https://s1440.github.io/cit281-p1/">Project 1</a> - Learned to use the command line and run JavaScript files using Node.js</li>
-      <li><a href="https://s1440.github.io/cit281-p2/">Project 2</a> - Created and used functions, arrays, and loops in Node.js</li>
-      <li><a href="https://s1440.github.io/cit281-p3/">Project 3</a> - Used modules, classes, and web servers to build structured code</li>
-      <li><a href="https://s1440.github.io/cit281-p4/">Project 4</a> - Created a countdown timer using DOM manipulation and setInterval</li>
-      <li><a href="https://s1440.github.io/cit281-p5/">Project 5</a> - Built a word search game using modules and client-server interaction</li>
-      <li><a href="https://s1440.github.io/cit281-p6/">Project 6</a> - Made a full-stack app using Express with CRUD and JSON responses</li>
-      <li><a href="https://s1440.github.io/cit281-p7/">Project 7</a> - Published a full portfolio website using GitHub Pages</li>
-
+      <li><a class="project-link" href="project1.html">Project 1</a> – Learn to use the command line interface and execute JavaScript files using Node.js</li>
+      <li><a class="project-link" href="project2.html">Project 2</a> – Refactor and modularize code with modern JavaScript practices</li>
+      <li><a class="project-link" href="project3.html">Project 3</a> – Create a Node.js REST API using custom modules</li>
+      <li><a class="project-link" href="project4.html">Project 4</a> – Build and test an Express server with multiple routes</li>
+      <li><a class="project-link" href="project5.html">Project 5</a> – Develop a word search game using client-server architecture</li>
+      <li><a class="project-link" href="project6.html">Project 6</a> – Build a full CRUD API with Express and client UI using fetch</li>
+      <li><a class="project-link" href="project7.html">Project 7</a> – Create and publish your CIT portfolio using GitHub Pages</li>
     </ul>
   </main>
 </body>
