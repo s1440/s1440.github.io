@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Lab 1 - CIT 281 Portfolio</title>
   <style>
     body {
@@ -35,35 +35,35 @@
       color: #a4f0c1;
     }
     main {
-      padding: 2rem;
       max-width: 800px;
-      margin: 0 auto;
+      margin: 2rem auto;
+      padding: 0 1rem;
     }
     h2 {
       color: #004d24;
     }
-    .section {
-      margin-bottom: 2rem;
-    }
     .back-button {
-      display: inline-block;
+      display: block;
+      text-align: center;
+      margin-top: 3rem;
+    }
+    .back-button a {
       background-color: #007030;
       color: white;
+      padding: 0.8rem 1.5rem;
+      border-radius: 8px;
       text-decoration: none;
-      padding: 0.75rem 1.5rem;
-      border-radius: 6px;
       font-weight: bold;
       transition: background-color 0.3s;
     }
-    .back-button:hover {
+    .back-button a:hover {
       background-color: #005d29;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>CIT 281 Portfolio</h1>
-    <p>University of Oregon - Computer & Information Technology Minor</p>
+    <h1>Lab 1</h1>
   </header>
   <nav>
     <a href="index.html">Home</a>
@@ -72,24 +72,22 @@
     <a href="about.html">About</a>
   </nav>
   <main>
-    <h2>Lab 1</h2>
+    <h2>Purpose</h2>
+    <p>Installed required software and practiced using the command line and GitHub basics.</p>
 
-    <div class="section">
-      <strong>Purpose:</strong>
-      <p>Installed required software and practiced using the command line and basic Node.js syntax.</p>
+    <h2>Technologies Used</h2>
+    <ul>
+      <li>Command Line</li>
+      <li>VS Code</li>
+      <li>GitHub</li>
+    </ul>
+
+    <h2>What I Learned</h2>
+    <p>I learned how to install developer tools and run JavaScript using Node.js.</p>
+
+    <div class="back-button">
+      <a href="labs.html">← Back to Labs</a>
     </div>
-
-    <div class="section">
-      <strong>Technologies Used:</strong>
-      <p>Node.js, Visual Studio Code, Terminal/Command Line</p>
-    </div>
-
-    <div class="section">
-      <strong>What I Learned:</strong>
-      <p>How to execute JavaScript using Node.js and navigate the file system using the command line.</p>
-    </div>
-
-    <a class="back-button" href="labs.html">← Back to Labs</a>
   </main>
 </body>
 </html>
