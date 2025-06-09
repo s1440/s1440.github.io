@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Home - CIT 281 Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CIT 281 Portfolio</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -15,7 +15,7 @@
     header {
       background-color: #007030;
       color: white;
-      padding: 2rem;
+      padding: 1.5rem;
       text-align: center;
     }
     nav {
@@ -35,34 +35,31 @@
       color: #a4f0c1;
     }
     main {
-      padding: 4rem 2rem;
-      text-align: center;
-    }
-    .button-container {
       display: flex;
+      flex-direction: column;
+      align-items: center;
       justify-content: center;
+      height: calc(100vh - 160px);
       gap: 2rem;
-      flex-wrap: wrap;
     }
-    .nav-button {
+    .button-link {
       background-color: #007030;
       color: white;
-      padding: 1rem 2rem;
-      font-size: 1.25rem;
       text-decoration: none;
-      border: none;
+      padding: 1rem 2rem;
       border-radius: 8px;
-      cursor: pointer;
+      font-size: 1.2rem;
+      font-weight: bold;
       transition: background-color 0.3s;
     }
-    .nav-button:hover {
-      background-color: #005f27;
+    .button-link:hover {
+      background-color: #005d29;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>My CIT 281 Portfolio</h1>
+    <h1>CIT 281 Portfolio</h1>
     <p>University of Oregon - Computer & Information Technology Minor</p>
   </header>
   <nav>
@@ -72,11 +69,9 @@
     <a href="about.html">About</a>
   </nav>
   <main>
-    <div class="button-container">
-      <a href="labs.html" class="nav-button">View Labs</a>
-      <a href="projects.html" class="nav-button">View Projects</a>
-      <a href="about.html" class="nav-button">About Me</a>
-    </div>
+    <a class="button-link" href="labs.html">Explore Labs</a>
+    <a class="button-link" href="projects.html">Explore Projects</a>
+    <a class="button-link" href="about.html">Learn About This Portfolio</a>
   </main>
 </body>
 </html>
